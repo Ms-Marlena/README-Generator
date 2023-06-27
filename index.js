@@ -14,7 +14,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "Why did you build this project? What problem does it solve? What was your motivation to solve this problem?",
+    message:
+      "Why did you build this project? What problem does it solve? What was your motivation to solve this problem?",
     name: "descriptionWhy",
   },
   {
@@ -53,23 +54,30 @@ const questions = [
   },
   {
     type: "list",
-    message: "Please choose a license for this project:",
-    choices: ["License Type 1", "License Type 2", "License Type 3"],
+    message:
+      "Please choose a license for this project:",
+    choices:
+      ["License Type 1", "License Type 2", "License Type 3"],
     name: "license",
   },
 ];
 
 // TODO: Create a function to write README file
-// function writeToFile(README1.md, data, (err) =>
-//   err ? console.error(err) : console.log('README file generated successfully!')
-// )
+
+function startApp(newReadmeText) {
+  fs.writeFile("NEWREADME.md", newReadmeText, (err) =>
+    err ? console.error(err) : console.log("New README file created!")
+  );
+}
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
-    const template = generateMarkdown(answers);
-    console.log(template);
+    const newReadmeText = generateMarkdown(answers);
+    console.log(newReadmeText);
+    startApp(newReadmeText);
   });
 }
 
 // Function call to initialize app
 init();
+

@@ -34,7 +34,7 @@ ${data.usage}
 ## Credits
 ${data.creditsCollab}
 ${data.creditsThirdParty}
-${data.creditsTutorial}
+${data.creditsTutorials}
 
 ## License
 ${data.license}

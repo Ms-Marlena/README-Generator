@@ -1,7 +1,7 @@
-# x, 
+# README generator, 
 ## Description
-y
-z
+It makes a tedious task more streamlined and pleasant!
+I learned about creating prompts and writing to files.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -10,16 +10,16 @@ z
 - [License](#license)
 
 ## Installation
-a
+In the terminal, type `npm i`
 
 ## Usage
-b
+In the terminal, type `node index.js` and answer the questions.
 
     ![alt text](assets/images/screenshot.png)
  
 ## Credits
-c
-d
+n/a
+n/a
 undefined
 
 ## License
