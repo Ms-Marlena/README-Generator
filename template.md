@@ -15,7 +15,7 @@ a
 ## Usage
 b
 
-    ![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.png)
  
 ## Credits
 c

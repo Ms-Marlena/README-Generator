@@ -29,8 +29,8 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-    ![alt text](assets/images/screenshot.png)
- 
+![alt text](assets/images/screenshot.png)
+
 ## Credits
 ${data.creditsCollab}
 ${data.creditsThirdParty}
