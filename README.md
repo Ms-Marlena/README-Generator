@@ -1,5 +1,5 @@
 # README Generator
-Bootcamp Challenge #9
+
 Walkthrough video link: https://drive.google.com/file/d/1RlDyGs2xUisbCUy_H4nsnUGVOzuvq6tm/view
 GitHub link:
 
